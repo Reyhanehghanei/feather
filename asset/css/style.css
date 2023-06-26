@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "iranyekan";
+    src: url("../fonts/uiranyekan/eot/iranyekanwebregular.eot?#"),
+        url("../fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+        url("../fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+        url("../fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+
+@font-face {
+    font-family: "iranyekan_numbers";
+    src: url("../fonts/fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#"),
+        url("../fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+        url("../fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+        url("../fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'iranyekan_numbers', 'iranyekan';
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.contener {
+    width: 95%;
+}
+
+.m-0 {
+    margin: 0 auto;
+}
+
+.p-20 {
+    padding: 18px;
+}
+
+/* header */
+.box-show {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+/* logo */
+.logo {
+    width: 9%;
+}
+
+.logo-text {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* end logo */
+/*  link-header  */
+.gap-30 {
+    gap: 30px;
+}
+
+.link-header {
+    font-size: 18px;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
+.link-header-color {
+    --tw-text-opacity: 1;
+    color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.link-posion {
+    right: 25rem;
+    position: absolute;
+}
+
+/* end-link-header */
+/* botton-header */
+.gap-15 {
+    gap: 15px;
+}
+
+.login {
+    padding-top: 7px;
+    font-weight: 600;
+    border-width: 1px;
+    padding-left: 19px;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-right: 19px;
+    display: inline-block;
+    border-radius: 0.75rem;
+    --tw-border-opacity: 1;
+
+}
+
+.border {
+    border: 1px solid #e2e8f0;
+    border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.text-wit {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+/* end-botton-header */
+/* hamberger-mano */
+.gamberger-mano {
+    border-radius: 14px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* end hamberger mano */
+
+/* end header */
