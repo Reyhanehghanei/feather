@@ -52,18 +52,31 @@ a {
 }
 
 .contener {
-    width: 95%;
+    width: 90%;
+    border: 1px solid red;
 }
 
 .m-0 {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .p-20 {
     padding: 18px;
 }
 
+ul {
+    list-style: none;
+}
+
 /* header */
+header {
+    position: sticky;
+}
+
 .box-show {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -145,8 +158,48 @@ a {
 }
 
 /* end hamberger mano */
-
 /* end header */
+
+/* main */
+/* text-main */
+.main-text {
+    margin-top: 3rem;
+}
+
+.main-text h1 {
+    line-height: 1;
+    font-size: 3rem;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.min-h2 {
+    font-size: 21px;
+    margin-top: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
+/* end-text-main */
+/* img-ul-muno */
+.img-ul-muno {
+    margin-top: 4rem;
+}
+
+.p-ul {
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.flex-wrp {
+    flex-wrap: wrap;
+}
+.img-ul {
+    width:50%;
+}
+
+/* end-img-ul-muno */
+/* end-main */
 
 /* media */
 
@@ -190,13 +243,16 @@ a {
 }
 
 @media only screen and (max-width: 580px) {
+
     /* logo */
     .logo-text {
         font-size: 25px;
     }
+
     .logo {
         width: 13%;
     }
+
     /* end-logo */
 }
 
